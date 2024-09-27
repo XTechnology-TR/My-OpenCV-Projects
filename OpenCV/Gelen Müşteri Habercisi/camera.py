@@ -1,3 +1,4 @@
+# Gerekli Kütüphaneler
 import cv2
 import pygame
 import numpy as np
@@ -6,7 +7,7 @@ import time
 # Pygame başlat
 pygame.init()
 
-# Ses dosyasını yükle (örneğin, 'ses.mp3' ses dosyası)
+# Ses dosyasını yükle
 pygame.mixer.init()
 pygame.mixer.music.load('ses.mp3')
 
